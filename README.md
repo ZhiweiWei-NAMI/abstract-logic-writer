@@ -4,6 +4,10 @@ Ontology-aware drafting, linting, and scoring for English academic abstracts.
 
 This repository is organized so it can be uploaded to GitHub directly and also packaged as a ChatGPT Skill.
 
+## 通用学术写作与修订协议（中文）
+
+新增独立的[使用说明](protocols/academic-writing/README.md)与[完整 YAML 协议](protocols/academic-writing/protocol.zh-CN.yaml)，覆盖论文与申请书的论证层级、术语、证据、最小修改与实质重写，以及按任务启用的逐页展示和文件写回流程。可将协议直接作为提示词使用；原有英文摘要技能和评分脚本保留各自的适用范围。
+
 ---
 
 ## 30 seconds to see the effect
@@ -214,3 +218,4 @@ abstract-logic-writer/
 - This repository is deterministic at the rule level, not at the level of stylistic imitation.
 - The score is meant to compare logic, ontology fit, and rhetorical load, not to replace expert judgment.
 - Push the directory to GitHub as-is, or package it as `skill.zip` for ChatGPT Skill upload.
+
